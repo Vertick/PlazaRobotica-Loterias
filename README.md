@@ -1,2 +1,2 @@
-# Codex_Projects
-Proyectos desarrollados con Codex
+# PlazaRobotica-Loterias
+Desarrollo del proyecto con codex
