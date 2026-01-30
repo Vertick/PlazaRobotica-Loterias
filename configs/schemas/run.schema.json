@@ -1,0 +1,166 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/run.schema.json",
+  "title": "Monte Carlo Execution Record",
+  "description": "Execution record (metadata) for a Monte Carlo run. Captures what was executed, when, how, and with what results. Not a profile definition.",
+  "type": "object",
+  "additionalProperties": false,
+
+  "required": [
+    "module",
+    "game",
+    "reference",
+    "config",
+    "conditions",
+    "execution",
+    "environment"
+  ],
+
+  "properties": {
+    "module": {
+      "type": "string",
+      "enum": ["monte_carlo_conditioned", "monte_carlo_baseline"]
+    },
+
+    "game": {
+      "type": "string",
+      "enum": ["gordo_primitiva"]
+    },
+
+    "reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["baseline_percentiles"]
+        },
+        "reference_dir": {
+          "type": "string"
+        }
+      }
+    },
+
+    "config": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "seed", "N_target"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Profile identifier used for the run."
+        },
+        "description": {
+          "type": "string"
+        },
+        "seed": {
+          "type": "integer"
+        },
+        "N_target": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "max_iterations": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "profile_config_path": {
+          "type": "string",
+          "description": "Path to the declarative profile config used."
+        },
+        "profile_config_hash": {
+          "type": "string",
+          "description": "Hash of the profile config file for integrity verification."
+        }
+      }
+    },
+
+    "conditions": {
+      "type": "array",
+      "description": "Resolved conditions actually applied during execution (post-profile resolution).",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "metric", "rule", "params"],
+        "properties": {
+          "id": { "type": "string" },
+          "metric": { "type": "string" },
+          "rule": { "type": "string" },
+          "params": {
+            "type": "object",
+            "description": "Resolved parameters (may include concrete min/max values)."
+          }
+        }
+      }
+    },
+
+    "execution": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "started_at",
+        "finished_at",
+        "duration_seconds",
+        "iterations",
+        "accepted",
+        "acceptance_rate"
+      ],
+      "properties": {
+        "started_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "finished_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "duration_seconds": {
+          "type": "number",
+          "minimum": 0
+        },
+        "iterations": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "accepted": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "acceptance_rate": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "relaxation_applied": {
+          "type": "string",
+          "enum": ["none", "step1", "step2", "step3"]
+        }
+      }
+    },
+
+    "environment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["python_version", "platform"],
+      "properties": {
+        "python_version": {
+          "type": "string"
+        },
+        "platform": {
+          "type": "string"
+        },
+        "platform_detail": {
+          "type": "string"
+        },
+        "pandas_version": {
+          "type": "string"
+        }
+      }
+    },
+
+    "notes": {
+      "type": "string"
+    }
+  }
+}

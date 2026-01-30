@@ -1,0 +1,81 @@
+{
+  "profile_id": "profile_balanced_v3",
+  "family": "balanced",
+  "description": "Balanced conditioned profile v3. Core reinforced central windows (P35-P65) on range/sum/std relative to Monte Carlo baseline, with mild decade-based diversity constraints. Non-predictive, rejection-based.",
+  "reference": {
+    "type": "baseline_percentiles"
+  },
+  "conditions": [
+    {
+      "id": "range_p35_p65",
+      "metric": "range",
+      "rule": "percentile_band",
+      "params": {
+        "lower": 35,
+        "upper": 65
+      }
+    },
+    {
+      "id": "sum_p35_p65",
+      "metric": "sum",
+      "rule": "percentile_band",
+      "params": {
+        "lower": 35,
+        "upper": 65
+      }
+    },
+    {
+      "id": "std_p35_p65",
+      "metric": "std",
+      "rule": "percentile_band",
+      "params": {
+        "lower": 35,
+        "upper": 65
+      }
+    },
+    {
+      "id": "decade_diversity",
+      "metric": "decades",
+      "rule": "distribution_constraint",
+      "params": {
+        "max_bin_count": 2,
+        "min_nonempty_bins": 3
+      }
+    }
+  ],
+  "acceptance_policy": {
+    "method": "rejection_sampling",
+    "expected_acceptance_rate_range": [0.03, 0.12]
+  },
+  "relaxation_plan": [
+    {
+      "step": 1,
+      "trigger": "acceptance_rate < 0.03",
+      "action": {
+        "type": "relax_decades",
+        "params": {
+          "min_nonempty_bins": 2
+        }
+      }
+    },
+    {
+      "step": 2,
+      "trigger": "still_below_threshold",
+      "action": {
+        "type": "relax_core",
+        "params": {
+          "lower": 33,
+          "upper": 67
+        }
+      }
+    },
+    {
+      "step": 3,
+      "trigger": "still_below_threshold",
+      "action": {
+        "type": "fallback_profile",
+        "profile_id": "profile_balanced_v2"
+      }
+    }
+  ]
+}

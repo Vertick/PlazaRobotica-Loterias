@@ -1,0 +1,28 @@
+{
+  "profile_id": "profile_balanced_v2",
+  "family": "balanced",
+  "description": "Balanced conditioned profile v2. Central windows P25-P75 on range, sum and std relative to Monte Carlo baseline. Non predictive.",
+  "reference": {
+    "type": "baseline_percentiles"
+  },
+  "conditions": [
+    {
+      "id": "range_p25_p75",
+      "metric": "range",
+      "rule": "percentile_band",
+      "params": { "lower": 25, "upper": 75 }
+    },
+    {
+      "id": "sum_p25_p75",
+      "metric": "sum",
+      "rule": "percentile_band",
+      "params": { "lower": 25, "upper": 75 }
+    },
+    {
+      "id": "std_p25_p75",
+      "metric": "std",
+      "rule": "percentile_band",
+      "params": { "lower": 25, "upper": 75 }
+    }
+  ]
+}

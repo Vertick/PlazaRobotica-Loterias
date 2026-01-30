@@ -1,0 +1,155 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/profile.schema.json",
+  "title": "Monte Carlo Conditioned Profile",
+  "description": "Declarative definition of a non-predictive conditioned Monte Carlo profile. Used as input to the Monte Carlo engine prior to execution.",
+  "type": "object",
+  "additionalProperties": false,
+
+  "required": ["profile_id", "family", "description", "reference", "conditions"],
+
+  "properties": {
+    "profile_id": {
+      "type": "string",
+      "pattern": "^profile_[a-z0-9_]+_v[0-9]+$"
+    },
+
+    "family": {
+      "type": "string",
+      "enum": ["balanced", "contrast", "diversity", "experimental"]
+    },
+
+    "description": {
+      "type": "string",
+      "minLength": 20
+    },
+
+    "reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["baseline_percentiles"]
+        }
+      }
+    },
+
+    "conditions": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/condition" }
+    },
+
+    "acceptance_policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["method"],
+      "properties": {
+        "method": {
+          "type": "string",
+          "enum": ["rejection_sampling"]
+        },
+        "expected_acceptance_rate_range": {
+          "type": "array",
+          "items": { "type": "number", "minimum": 0, "maximum": 1 },
+          "minItems": 2,
+          "maxItems": 2
+        }
+      }
+    },
+
+    "relaxation_plan": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/relaxation_step" }
+    }
+  },
+
+  "$defs": {
+    "condition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "metric", "rule", "params"],
+      "properties": {
+        "id": { "type": "string" },
+        "metric": {
+          "type": "string",
+          "enum": ["range", "sum", "std", "decades"]
+        },
+        "rule": {
+          "type": "string",
+          "enum": ["percentile_band", "distribution_constraint"]
+        },
+        "params": { "type": "object" }
+      },
+
+      "allOf": [
+        {
+          "if": { "properties": { "rule": { "const": "percentile_band" } } },
+          "then": {
+            "properties": {
+              "params": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["lower", "upper"],
+                "properties": {
+                  "lower": { "type": "number", "minimum": 0, "maximum": 100 },
+                  "upper": { "type": "number", "minimum": 0, "maximum": 100 }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "rule": { "const": "distribution_constraint" } } },
+          "then": {
+            "properties": {
+              "params": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "max_bin_count": { "type": "integer", "minimum": 1 },
+                  "min_nonempty_bins": { "type": "integer", "minimum": 1 }
+                },
+                "anyOf": [
+                  { "required": ["max_bin_count"] },
+                  { "required": ["min_nonempty_bins"] }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+
+    "relaxation_step": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["step", "trigger", "action"],
+      "properties": {
+        "step": { "type": "integer", "minimum": 1 },
+        "trigger": { "type": "string" },
+        "action": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["type"],
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": ["relax_decades", "relax_core", "fallback_profile"]
+            },
+            "params": { "type": "object" },
+            "profile_id": { "type": "string" }
+          },
+          "allOf": [
+            {
+              "if": { "properties": { "type": { "const": "fallback_profile" } } },
+              "then": { "required": ["profile_id"] }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

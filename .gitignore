@@ -1,0 +1,6 @@
+data/**/*.parquet
+reports/**/*
+!reports/README.md
+__pycache__/
+*.pyc
+.venv/

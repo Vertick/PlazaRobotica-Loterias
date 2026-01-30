@@ -1,0 +1,560 @@
+[
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\configs\\profiles\\profile_balanced_v2.json",
+    "relative_path": "configs\\profiles\\profile_balanced_v2.json",
+    "name": "profile_balanced_v2.json",
+    "size_bytes": 747
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\configs\\profiles\\profile_balanced_v3.json",
+    "relative_path": "configs\\profiles\\profile_balanced_v3.json",
+    "name": "profile_balanced_v3.json",
+    "size_bytes": 1860
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\configs\\profiles\\profile_sanity_test.json",
+    "relative_path": "configs\\profiles\\profile_sanity_test.json",
+    "name": "profile_sanity_test.json",
+    "size_bytes": 1326
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\configs\\schemas\\profile.schema.json",
+    "relative_path": "configs\\schemas\\profile.schema.json",
+    "name": "profile.schema.json",
+    "size_bytes": 4455
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\configs\\schemas\\run.schema.json",
+    "relative_path": "configs\\schemas\\run.schema.json",
+    "name": "run.schema.json",
+    "size_bytes": 4143
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\data\\curated\\curated_gordo_primitiva.parquet",
+    "relative_path": "data\\curated\\curated_gordo_primitiva.parquet",
+    "name": "curated_gordo_primitiva.parquet",
+    "size_bytes": 21964
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\data\\curated\\curated_gordo_primitiva_report.json",
+    "relative_path": "data\\curated\\curated_gordo_primitiva_report.json",
+    "name": "curated_gordo_primitiva_report.json",
+    "size_bytes": 316
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\analysis\\historical_vs_baseline\\decade_pattern_comparison.csv",
+    "relative_path": "reports\\analysis\\historical_vs_baseline\\decade_pattern_comparison.csv",
+    "name": "decade_pattern_comparison.csv",
+    "size_bytes": 1641
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\analysis\\historical_vs_baseline\\scalar_comparison.csv",
+    "relative_path": "reports\\analysis\\historical_vs_baseline\\scalar_comparison.csv",
+    "name": "scalar_comparison.csv",
+    "size_bytes": 879
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\analysis\\historical_vs_baseline\\summary.md",
+    "relative_path": "reports\\analysis\\historical_vs_baseline\\summary.md",
+    "name": "summary.md",
+    "size_bytes": 215
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\analysis\\kl_top10_v3_vs_v2.csv",
+    "relative_path": "reports\\analysis\\kl_top10_v3_vs_v2.csv",
+    "name": "kl_top10_v3_vs_v2.csv",
+    "size_bytes": 955
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\eda\\draws_per_year.csv",
+    "relative_path": "reports\\eda\\draws_per_year.csv",
+    "name": "draws_per_year.csv",
+    "size_bytes": 209
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\eda\\frequency_key.csv",
+    "relative_path": "reports\\eda\\frequency_key.csv",
+    "name": "frequency_key.csv",
+    "size_bytes": 303
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\eda\\frequency_numbers.csv",
+    "relative_path": "reports\\eda\\frequency_numbers.csv",
+    "name": "frequency_numbers.csv",
+    "size_bytes": 1535
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\final\\final_combinations_v3.csv",
+    "relative_path": "reports\\final\\final_combinations_v3.csv",
+    "name": "final_combinations_v3.csv",
+    "size_bytes": 1428
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\metrics\\decade_patterns.csv",
+    "relative_path": "reports\\metrics\\decade_patterns.csv",
+    "name": "decade_patterns.csv",
+    "size_bytes": 7803
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\metrics\\range_percentiles.csv",
+    "relative_path": "reports\\metrics\\range_percentiles.csv",
+    "name": "range_percentiles.csv",
+    "size_bytes": 63
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\metrics\\std_percentiles.csv",
+    "relative_path": "reports\\metrics\\std_percentiles.csv",
+    "name": "std_percentiles.csv",
+    "size_bytes": 131
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\metrics\\sum_percentiles.csv",
+    "relative_path": "reports\\metrics\\sum_percentiles.csv",
+    "name": "sum_percentiles.csv",
+    "size_bytes": 68
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\monte_carlo\\baseline\\decade_patterns.csv",
+    "relative_path": "reports\\monte_carlo\\baseline\\decade_patterns.csv",
+    "name": "decade_patterns.csv",
+    "size_bytes": 7486
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\monte_carlo\\baseline\\metadata.json",
+    "relative_path": "reports\\monte_carlo\\baseline\\metadata.json",
+    "name": "metadata.json",
+    "size_bytes": 679
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\monte_carlo\\baseline\\range_percentiles.csv",
+    "relative_path": "reports\\monte_carlo\\baseline\\range_percentiles.csv",
+    "name": "range_percentiles.csv",
+    "size_bytes": 188
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\monte_carlo\\baseline\\std_percentiles.csv",
+    "relative_path": "reports\\monte_carlo\\baseline\\std_percentiles.csv",
+    "name": "std_percentiles.csv",
+    "size_bytes": 448
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\monte_carlo\\baseline\\sum_percentiles.csv",
+    "relative_path": "reports\\monte_carlo\\baseline\\sum_percentiles.csv",
+    "name": "sum_percentiles.csv",
+    "size_bytes": 205
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\monte_carlo\\conditioned\\profile_balanced_v1\\comparison_vs_reference.csv",
+    "relative_path": "reports\\monte_carlo\\conditioned\\profile_balanced_v1\\comparison_vs_reference.csv",
+    "name": "comparison_vs_reference.csv",
+    "size_bytes": 904
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\monte_carlo\\conditioned\\profile_balanced_v1\\conditioned_decade_patterns.csv",
+    "relative_path": "reports\\monte_carlo\\conditioned\\profile_balanced_v1\\conditioned_decade_patterns.csv",
+    "name": "conditioned_decade_patterns.csv",
+    "size_bytes": 1698
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\monte_carlo\\conditioned\\profile_balanced_v1\\conditioned_range_percentiles.csv",
+    "relative_path": "reports\\monte_carlo\\conditioned\\profile_balanced_v1\\conditioned_range_percentiles.csv",
+    "name": "conditioned_range_percentiles.csv",
+    "size_bytes": 63
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\monte_carlo\\conditioned\\profile_balanced_v1\\conditioned_std_percentiles.csv",
+    "relative_path": "reports\\monte_carlo\\conditioned\\profile_balanced_v1\\conditioned_std_percentiles.csv",
+    "name": "conditioned_std_percentiles.csv",
+    "size_bytes": 132
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\monte_carlo\\conditioned\\profile_balanced_v1\\conditioned_sum_percentiles.csv",
+    "relative_path": "reports\\monte_carlo\\conditioned\\profile_balanced_v1\\conditioned_sum_percentiles.csv",
+    "name": "conditioned_sum_percentiles.csv",
+    "size_bytes": 68
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\monte_carlo\\conditioned\\profile_balanced_v1\\metadata.json",
+    "relative_path": "reports\\monte_carlo\\conditioned\\profile_balanced_v1\\metadata.json",
+    "name": "metadata.json",
+    "size_bytes": 1657
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\monte_carlo\\conditioned\\profile_balanced_v2\\comparison_vs_reference.csv",
+    "relative_path": "reports\\monte_carlo\\conditioned\\profile_balanced_v2\\comparison_vs_reference.csv",
+    "name": "comparison_vs_reference.csv",
+    "size_bytes": 899
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\monte_carlo\\conditioned\\profile_balanced_v2\\conditioned_decade_patterns.csv",
+    "relative_path": "reports\\monte_carlo\\conditioned\\profile_balanced_v2\\conditioned_decade_patterns.csv",
+    "name": "conditioned_decade_patterns.csv",
+    "size_bytes": 1749
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\monte_carlo\\conditioned\\profile_balanced_v2\\conditioned_range_percentiles.csv",
+    "relative_path": "reports\\monte_carlo\\conditioned\\profile_balanced_v2\\conditioned_range_percentiles.csv",
+    "name": "conditioned_range_percentiles.csv",
+    "size_bytes": 63
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\monte_carlo\\conditioned\\profile_balanced_v2\\conditioned_std_percentiles.csv",
+    "relative_path": "reports\\monte_carlo\\conditioned\\profile_balanced_v2\\conditioned_std_percentiles.csv",
+    "name": "conditioned_std_percentiles.csv",
+    "size_bytes": 131
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\monte_carlo\\conditioned\\profile_balanced_v2\\conditioned_sum_percentiles.csv",
+    "relative_path": "reports\\monte_carlo\\conditioned\\profile_balanced_v2\\conditioned_sum_percentiles.csv",
+    "name": "conditioned_sum_percentiles.csv",
+    "size_bytes": 68
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\monte_carlo\\conditioned\\profile_balanced_v2\\metadata.json",
+    "relative_path": "reports\\monte_carlo\\conditioned\\profile_balanced_v2\\metadata.json",
+    "name": "metadata.json",
+    "size_bytes": 1745
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\monte_carlo\\conditioned\\profile_balanced_v2\\validation_report.json",
+    "relative_path": "reports\\monte_carlo\\conditioned\\profile_balanced_v2\\validation_report.json",
+    "name": "validation_report.json",
+    "size_bytes": 198
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\monte_carlo\\conditioned\\profile_balanced_v3\\comparison_vs_reference.csv",
+    "relative_path": "reports\\monte_carlo\\conditioned\\profile_balanced_v3\\comparison_vs_reference.csv",
+    "name": "comparison_vs_reference.csv",
+    "size_bytes": 889
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\monte_carlo\\conditioned\\profile_balanced_v3\\conditioned_decade_patterns.csv",
+    "relative_path": "reports\\monte_carlo\\conditioned\\profile_balanced_v3\\conditioned_decade_patterns.csv",
+    "name": "conditioned_decade_patterns.csv",
+    "size_bytes": 955
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\monte_carlo\\conditioned\\profile_balanced_v3\\conditioned_range_percentiles.csv",
+    "relative_path": "reports\\monte_carlo\\conditioned\\profile_balanced_v3\\conditioned_range_percentiles.csv",
+    "name": "conditioned_range_percentiles.csv",
+    "size_bytes": 63
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\monte_carlo\\conditioned\\profile_balanced_v3\\conditioned_std_percentiles.csv",
+    "relative_path": "reports\\monte_carlo\\conditioned\\profile_balanced_v3\\conditioned_std_percentiles.csv",
+    "name": "conditioned_std_percentiles.csv",
+    "size_bytes": 133
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\monte_carlo\\conditioned\\profile_balanced_v3\\conditioned_sum_percentiles.csv",
+    "relative_path": "reports\\monte_carlo\\conditioned\\profile_balanced_v3\\conditioned_sum_percentiles.csv",
+    "name": "conditioned_sum_percentiles.csv",
+    "size_bytes": 69
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\monte_carlo\\conditioned\\profile_balanced_v3\\metadata.json",
+    "relative_path": "reports\\monte_carlo\\conditioned\\profile_balanced_v3\\metadata.json",
+    "name": "metadata.json",
+    "size_bytes": 2008
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\monte_carlo\\conditioned\\profile_balanced_v3\\metrics_df.csv",
+    "relative_path": "reports\\monte_carlo\\conditioned\\profile_balanced_v3\\metrics_df.csv",
+    "name": "metrics_df.csv",
+    "size_bytes": 65249
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\monte_carlo\\conditioned\\profile_balanced_v3\\validation_report.json",
+    "relative_path": "reports\\monte_carlo\\conditioned\\profile_balanced_v3\\validation_report.json",
+    "name": "validation_report.json",
+    "size_bytes": 198
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\monte_carlo\\conditioned\\test_minimal\\comparison_vs_reference.csv",
+    "relative_path": "reports\\monte_carlo\\conditioned\\test_minimal\\comparison_vs_reference.csv",
+    "name": "comparison_vs_reference.csv",
+    "size_bytes": 991
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\monte_carlo\\conditioned\\test_minimal\\conditioned_decade_patterns.csv",
+    "relative_path": "reports\\monte_carlo\\conditioned\\test_minimal\\conditioned_decade_patterns.csv",
+    "name": "conditioned_decade_patterns.csv",
+    "size_bytes": 1534
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\monte_carlo\\conditioned\\test_minimal\\conditioned_range_percentiles.csv",
+    "relative_path": "reports\\monte_carlo\\conditioned\\test_minimal\\conditioned_range_percentiles.csv",
+    "name": "conditioned_range_percentiles.csv",
+    "size_bytes": 63
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\monte_carlo\\conditioned\\test_minimal\\conditioned_std_percentiles.csv",
+    "relative_path": "reports\\monte_carlo\\conditioned\\test_minimal\\conditioned_std_percentiles.csv",
+    "name": "conditioned_std_percentiles.csv",
+    "size_bytes": 129
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\monte_carlo\\conditioned\\test_minimal\\conditioned_sum_percentiles.csv",
+    "relative_path": "reports\\monte_carlo\\conditioned\\test_minimal\\conditioned_sum_percentiles.csv",
+    "name": "conditioned_sum_percentiles.csv",
+    "size_bytes": 81
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\reports\\monte_carlo\\conditioned\\test_minimal\\metadata.json",
+    "relative_path": "reports\\monte_carlo\\conditioned\\test_minimal\\metadata.json",
+    "name": "metadata.json",
+    "size_bytes": 1088
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\scripts\\__pycache__\\__init__.cpython-314.pyc",
+    "relative_path": "scripts\\__pycache__\\__init__.cpython-314.pyc",
+    "name": "__init__.cpython-314.pyc",
+    "size_bytes": 192
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\scripts\\__pycache__\\run_baseline.cpython-314.pyc",
+    "relative_path": "scripts\\__pycache__\\run_baseline.cpython-314.pyc",
+    "name": "run_baseline.cpython-314.pyc",
+    "size_bytes": 9676
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\scripts\\__pycache__\\run_profile.cpython-314.pyc",
+    "relative_path": "scripts\\__pycache__\\run_profile.cpython-314.pyc",
+    "name": "run_profile.cpython-314.pyc",
+    "size_bytes": 3036
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\scripts\\__pycache__\\run_profile_balanced.cpython-314.pyc",
+    "relative_path": "scripts\\__pycache__\\run_profile_balanced.cpython-314.pyc",
+    "name": "run_profile_balanced.cpython-314.pyc",
+    "size_bytes": 1045
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\scripts\\__pycache__\\run_profile_balanced_v2.cpython-314.pyc",
+    "relative_path": "scripts\\__pycache__\\run_profile_balanced_v2.cpython-314.pyc",
+    "name": "run_profile_balanced_v2.cpython-314.pyc",
+    "size_bytes": 2539
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\scripts\\data\\curated\\curated_gordo_primitiva.parquet",
+    "relative_path": "scripts\\data\\curated\\curated_gordo_primitiva.parquet",
+    "name": "curated_gordo_primitiva.parquet",
+    "size_bytes": 21964
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\scripts\\data\\curated\\curated_gordo_primitiva_report.json",
+    "relative_path": "scripts\\data\\curated\\curated_gordo_primitiva_report.json",
+    "name": "curated_gordo_primitiva_report.json",
+    "size_bytes": 316
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\scripts\\__init__.py",
+    "relative_path": "scripts\\__init__.py",
+    "name": "__init__.py",
+    "size_bytes": 0
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\scripts\\ingest_gordo_lotoideas.py",
+    "relative_path": "scripts\\ingest_gordo_lotoideas.py",
+    "name": "ingest_gordo_lotoideas.py",
+    "size_bytes": 3552
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\scripts\\Lotoideas.com - Histórico de Resultados - Gordo de la Primitiva - 2005 a 202X.csv",
+    "relative_path": "scripts\\Lotoideas.com - Histórico de Resultados - Gordo de la Primitiva - 2005 a 202X.csv",
+    "name": "Lotoideas.com - Histórico de Resultados - Gordo de la Primitiva - 2005 a 202X.csv",
+    "size_bytes": 31150
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\scripts\\run_baseline.py",
+    "relative_path": "scripts\\run_baseline.py",
+    "name": "run_baseline.py",
+    "size_bytes": 8115
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\scripts\\run_profile.py",
+    "relative_path": "scripts\\run_profile.py",
+    "name": "run_profile.py",
+    "size_bytes": 4532
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\scripts\\run_profile_balanced.py",
+    "relative_path": "scripts\\run_profile_balanced.py",
+    "name": "run_profile_balanced.py",
+    "size_bytes": 1045
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\scripts\\run_profile_balanced_v2.py",
+    "relative_path": "scripts\\run_profile_balanced_v2.py",
+    "name": "run_profile_balanced_v2.py",
+    "size_bytes": 2123
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\src\\__pycache__\\__init__.cpython-314.pyc",
+    "relative_path": "src\\__pycache__\\__init__.cpython-314.pyc",
+    "name": "__init__.cpython-314.pyc",
+    "size_bytes": 188
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\src\\analysis\\__pycache__\\historical_vs_baseline.cpython-314.pyc",
+    "relative_path": "src\\analysis\\__pycache__\\historical_vs_baseline.cpython-314.pyc",
+    "name": "historical_vs_baseline.cpython-314.pyc",
+    "size_bytes": 6458
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\src\\analysis\\historical_vs_baseline.py",
+    "relative_path": "src\\analysis\\historical_vs_baseline.py",
+    "name": "historical_vs_baseline.py",
+    "size_bytes": 4999
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\src\\eda\\__pycache__\\__init__.cpython-314.pyc",
+    "relative_path": "src\\eda\\__pycache__\\__init__.cpython-314.pyc",
+    "name": "__init__.cpython-314.pyc",
+    "size_bytes": 192
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\src\\eda\\__pycache__\\eda_gordo_basic.cpython-314.pyc",
+    "relative_path": "src\\eda\\__pycache__\\eda_gordo_basic.cpython-314.pyc",
+    "name": "eda_gordo_basic.cpython-314.pyc",
+    "size_bytes": 5198
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\src\\eda\\__init__.py",
+    "relative_path": "src\\eda\\__init__.py",
+    "name": "__init__.py",
+    "size_bytes": 0
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\src\\eda\\eda_gordo_basic.py",
+    "relative_path": "src\\eda\\eda_gordo_basic.py",
+    "name": "eda_gordo_basic.py",
+    "size_bytes": 2658
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\src\\metrics\\__pycache__\\__init__.cpython-314.pyc",
+    "relative_path": "src\\metrics\\__pycache__\\__init__.cpython-314.pyc",
+    "name": "__init__.cpython-314.pyc",
+    "size_bytes": 196
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\src\\metrics\\__pycache__\\structural_distributions.cpython-314.pyc",
+    "relative_path": "src\\metrics\\__pycache__\\structural_distributions.cpython-314.pyc",
+    "name": "structural_distributions.cpython-314.pyc",
+    "size_bytes": 2933
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\src\\metrics\\__pycache__\\structural_metrics.cpython-314.pyc",
+    "relative_path": "src\\metrics\\__pycache__\\structural_metrics.cpython-314.pyc",
+    "name": "structural_metrics.cpython-314.pyc",
+    "size_bytes": 5331
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\src\\metrics\\__init__.py",
+    "relative_path": "src\\metrics\\__init__.py",
+    "name": "__init__.py",
+    "size_bytes": 0
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\src\\metrics\\structural_distributions.py",
+    "relative_path": "src\\metrics\\structural_distributions.py",
+    "name": "structural_distributions.py",
+    "size_bytes": 1987
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\src\\metrics\\structural_metrics.py",
+    "relative_path": "src\\metrics\\structural_metrics.py",
+    "name": "structural_metrics.py",
+    "size_bytes": 2894
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\src\\monte_carlo\\__pycache__\\__init__.cpython-314.pyc",
+    "relative_path": "src\\monte_carlo\\__pycache__\\__init__.cpython-314.pyc",
+    "name": "__init__.cpython-314.pyc",
+    "size_bytes": 200
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\src\\monte_carlo\\__pycache__\\baseline.cpython-314.pyc",
+    "relative_path": "src\\monte_carlo\\__pycache__\\baseline.cpython-314.pyc",
+    "name": "baseline.cpython-314.pyc",
+    "size_bytes": 8686
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\src\\monte_carlo\\__pycache__\\conditioned.cpython-314.pyc",
+    "relative_path": "src\\monte_carlo\\__pycache__\\conditioned.cpython-314.pyc",
+    "name": "conditioned.cpython-314.pyc",
+    "size_bytes": 30583
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\src\\monte_carlo\\__init__.py",
+    "relative_path": "src\\monte_carlo\\__init__.py",
+    "name": "__init__.py",
+    "size_bytes": 0
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\src\\monte_carlo\\baseline.py",
+    "relative_path": "src\\monte_carlo\\baseline.py",
+    "name": "baseline.py",
+    "size_bytes": 7479
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\src\\monte_carlo\\conditioned.py",
+    "relative_path": "src\\monte_carlo\\conditioned.py",
+    "name": "conditioned.py",
+    "size_bytes": 21844
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\src\\__init__.py",
+    "relative_path": "src\\__init__.py",
+    "name": "__init__.py",
+    "size_bytes": 0
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\tools\\export_metrics_df.py",
+    "relative_path": "tools\\export_metrics_df.py",
+    "name": "export_metrics_df.py",
+    "size_bytes": 1492
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\tools\\kl_top_patterns.py",
+    "relative_path": "tools\\kl_top_patterns.py",
+    "name": "kl_top_patterns.py",
+    "size_bytes": 2633
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\tools\\select_final_combinations.py",
+    "relative_path": "tools\\select_final_combinations.py",
+    "name": "select_final_combinations.py",
+    "size_bytes": 4668
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\tools\\validate_final_selection.py",
+    "relative_path": "tools\\validate_final_selection.py",
+    "name": "validate_final_selection.py",
+    "size_bytes": 5988
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\tools\\validate_run.py",
+    "relative_path": "tools\\validate_run.py",
+    "name": "validate_run.py",
+    "size_bytes": 4705
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\python",
+    "relative_path": "python",
+    "name": "python",
+    "size_bytes": 0
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\README.md",
+    "relative_path": "README.md",
+    "name": "README.md",
+    "size_bytes": 6635
+  },
+  {
+    "absolute_path": "C:\\Users\\Pedro Plaza\\Dropbox\\PlazaRobotica\\Proyectos\\05_Loterias\\02_Gordo_v2\\scan_project_tree.py",
+    "relative_path": "scan_project_tree.py",
+    "name": "scan_project_tree.py",
+    "size_bytes": 1892
+  }
+]

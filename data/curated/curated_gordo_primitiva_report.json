@@ -1,0 +1,15 @@
+{
+  "dataset": "Gordo de la Primitiva",
+  "source": "lotoideas.com",
+  "game": "gordo_primitiva",
+  "rows": 1084,
+  "date_range": {
+    "start": "2005-02-06",
+    "end": "2026-01-18"
+  },
+  "validation": {
+    "status": "OK",
+    "errors": []
+  },
+  "generated_at": "2026-01-25T20:46:15.906720+00:00"
+}
